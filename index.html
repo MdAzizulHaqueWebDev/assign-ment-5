@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>buy bus ticket</title>
+<link rel="stylesheet" href="style/style.css">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" raleway">
+<header class="">
+<!-- navbar section -->
+<div class="w-11/12 mx-auto navbar">
+<div class="navbar-start">
+<div class="dropdown">
+<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+</div>
+<ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  rounded-box w-3/4">
+<a href=""> <li>Home</li> </a>               
+<a href=""> <li>About</li> </a>                
+<a href="">  <li>Destination</li></a>
+<a href=""><li>search</li></a>
+</ul>
+</div>       
+<h2 class=" btn font-extrabold text-xs g:text-2xl " >P-Ticket</h2>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal  space-x-10 px-1">
+<a href=""><li>Home</li></a>
+<a href=""> <li>About</li> </a>            
+<a href="">  <li>Destination</li> </a>
+<a href=""> <li>search</li> </a>
+</ul>
+</div>
+<div class="navbar-end">
+<a class="btn">
+<img src="images/bus-icon.png" alt=""><span class="text-green-400">Bus</span></a>
+</div>
+</div>
+<!-- header banner -->
+<section class="w-11/12 mx-auto  lg:mt-7">
+<div class="bg-opacity-90 rounded-xl lg:rounded-2xl bg-[url(images/banner.png)] bg-cover   bg-center bg-no-repeat">
+<div class="flex text-white flex-col justify-center lg:gap-5 p-2 lg:p-20 items-center ">
+<h1 class="font-bold text-xl lg:text-6xl text-center ">End-to-End Travel with <br> <span class="text-green-500 text-center">P Paribahan</span></h1>
+<p class="text-center text-xs lg:text-xl ">Yes, you can run unit tests and view the results directly within the app.
+<br> The integrated testing features allow for a streamlined .</p>
+<a href="#booking-seat"><button class="btn btn-success">buy ticket</button></a> 
+</div>
+</div>
+</section>
+<!-- coupon card section -->
+<section class="w-11/12 mx-auto mt-5 lg:mt-14">
+<h2 class="font-bold text-center text-3xl">Best offers for you</h2>
+<section class="mt-6 flex flex-col lg:flex-row  justify-around gap-5 lg:gap-14 ">
+<div class="gap-5 w-full bg-[#FFBF0F] rounded-3xl p-6 flex justify-around">
+<div class="">
+<h2 class="font-bold inter text-xl lg:text-4xl">15 % OFF </h2>
+<h2 class="font-semibold ">on your next purchase</h2>
+<p>use by January 2024</p>   
+</div>
+
+<div class="border-l-4 border-dotted pl-5 flex flex-col justify-center ">
+<h2 class="font-bold text-sm lg:text-3xl text-left">NEW15</h2>
+<p>Coupon Code</p>
+</div>
+</div>
+<div class="gap-5 w-full bg-[#F78C9C] rounded-3xl p-6 flex justify-around">
+<div>
+<h2 class="font-bold inter text-xl lg:text-4xl">20% OFF
+</h2>
+<h2 class="font-semibold ">on your next purchase</h2>
+<p>use by January 2024</p>   
+</div>
+<div class="border-l-4 border-dotted pl-5 flex flex-col justify-center ">
+<h2 class="font-bold text-sm lg:text-3xl">Couple 20
+</h2>
+<p class="text-sm lg:text-xl">Coupon Code</p>
+</div>
+</div>
+</div>
+</section>
+
+<div class="flex justify-center items-center mt-5 lg:mt-14">
+<button class="btn btn-outline ">See All Offers</button>
+</div>
+</section>
+</header>
+<!-- ------------------- -->
+<main class="bg-[#F7F8F8]">
+<section class="mt-10 raleway rounded-t-3xl border-t-2 border-green-500">
+<div> <h2 class="text-3xl pt-14 text-center font-bold">P.H Paribahan </h2>
+<p class="text-center"> Yes, you can run unit tests and view the results directly within the app.
+The integrated testing features allow for a streamlined .</p>
+</div>
+<section class="mt-8 flex bg-[#FFFFFF] rounded-3xl w-11/12 mx-auto  ">
+<section class=" w-[70%] border-r-4 border-dotted">
+<div class="flex flex-col justify-center items-center">
+<!--   ---- -->
+<div class="">
+<div class="flex justify-between mt-10">
+<div class="flex">
+<div><img src="images/bus-logo.png" alt=""></div>
+<div> <h1 class="font-bold text-2xl">Greenline Paribahan</h1>
+<p>Coach-009-WEB ! AC_Business</p></div>
+</div>
+<div class="flex items-center mb-3 p-1 bg-green-300 rounded-lg">        
+<div><img src="images/seat-green.png" alt=""></div> 
+<div class="kbd-lg mt-3 "> 
+<span id="total-seat">8 </span> Seats left</div>
+</div>
+</div>
+<!--  -->
+<div class="bg-zinc-100 mb-4 p-4 rounded-2xl space-y-3">
+<div class="flex justify-between">
+<h2>Route</h2>
+<h3>Dhaka - Sylhet</h3>
+</div>
+<div class="flex border-y-4 border-dotted justify-between">
+<h2>Departure Time</h2>
+<h3>9.00pm</h3>
+</div>
+<div class="flex mt-3 justify-around gap-1 border-dotted">
+<button class="btn">Boarding Point - Laxmipur</button>
+<button class="btn">Dropping Point - Bogura</button>
+<button class="btn">Est. Time - 11 Hour</button>
+</div>
+</div>
+</section>
+</div>
+<!-- -------- -->
+<section class="flex mx-auto flex-col items-center  justify-center" >
+<div>
+<img src="images/fare.png" alt="">
+</div>
+<div>
+<h2 class="font-bold text-2xl"><span>550</span>Taka <br>
+Per Seat</h2>
+</div>
+</section>       
+</section>
+</section>
+<!-- ------------ seat section start here----------- -->
+<section id="booking-seat" class="flex rounded-xl w-11/12 mx-auto mt-5 bg-slate-300"> 
+<!-- side one  -->
+<section class="border-r-4 p-4 space-y-3 border-dotted w-1/2">
+<h1 class="text-2xl">Select Your Seat</h1>
+<div class="flex justify-between border-y-4 p-3 border-dotted">
+    <div class="flex"><img src="images/seat-gray.png" alt="">Available</div>
+    <div class="flex"><img src="images/seat-green-filled.png" alt="">Selected</div>
+</div>
+<div >
+    <div class="text-end mr-5 p-3 "> <button class="btn" ><svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <desc>
+                Created with Pixso.
+        </desc>
+        <defs/>
+        <path id="Vector" d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333" stroke="#030712" stroke-opacity="0.700000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+    </svg>
+    </button></div>
+</div>
+<!--             -----seat number -------- -->
+<section class="inter rounded-2xl">
+  <div class="flex flex-col gap-y-2">
+    <div class="flex items-center  gap-6 flex-grow mt-10">
+      <p class="font-semibold lg:text-2xl text-xl">A</p>
+      <button class="btn ticket px-10 ">A1</button>
+      <button class="btn ticket px-10" >A2</button>
+      <button class="btn ticket px-10" >A3</button>
+      <button class="btn ticket px-10 " >A4</button>
+    </div>
+    <div class="flex items-center gap-6 flex-grow mt-10">
+      <p class="font-semibold lg:text-2xl text-xl">B</p>
+      <button class="btn ticket px-10 ">B1</button>
+      <button class="btn ticket px-10" >B2</button>
+      <button class="btn ticket px-10" >C3</button>
+      <button class="btn ticket px-10 " >D4</button>
+    </div>
+   
+  </div>
+</div>
+</section>
+
+</section>
+<!-- side 2 -->
+<section class="p-5 w-1/2">
+<h2 class="text-2xl border-b-4 border-dotted p-4">Select Your Seat</h2>
+<div class="bg-[#F7F8F8] rounded-xl p-5 mt-5 space-y-3">
+    <div class="flex justify-between "><h2 class="font-bold">Seat <sup><span id="selected-seat" class="bg-green-300 rounded-xl p-1">0</span></sup></h2>
+        <h2 class="font-bold">Class</h2>
+        <h2 class="font-bold">price</h2>
+    </div>
+    <div class="flex justify-between border-t-4">
+        <p class="font-bold">Total Price</p>
+        <p class="font-bold inter">BDT <span  id="total-price">0</span></p>
+    </div>
+    <div class="flex rounded-md"><input  type="text" id="input-field" placeholder="Type  here" class="input input-bordered w-full max-w-xs" /><button id="input-button" class="btn btn-active bg-green-500">apply now</button></div>
+    <div class="flex justify-between  ">
+        <h2 class="font-bold">Grand Price</h2>
+        <p class="font-bold inter">BDT <span id="grand-price">0</span></p>
+    </div>
+</div>
+
+<!--  form  -->
+<section class="mt-10">
+    <h1 class="font-bold">Passenger Name*</h1>
+    <label class="required input input-bordered flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" /></svg>
+        <input type="text" class="grow" placeholder="Username" />
+    </label>
+    <h1 class="font-bold">Phone Number*</h1>
+    <label class="input input-bordered flex items-center gap-2">       
+        <input type="number" class="grow" required value="number"  placeholder="Number"/>
+    </label>
+    <h1 class="font-bold">Email ID</h1>
+      <label class="input input-bordered flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" /><path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" /></svg>
+        <input required type="text" class="grow" placeholder="Email" />
+      </label>
+ <div class="flex mt-5 justify-center">
+        <!-- You can open the modal using ID.showModal() method -->
+<button class="btn w-2/3 bg-green-400" onclick="my_modal_4.showModal()">Next</button> </div>
+<dialog id="my_modal_4" class="modal">
+  <div class="modal-box w-11/12 max-w-5xl">
+    
+    <div class="flex flex-col justify-center items-center">
+      <img src="images/success.png" alt="">
+    <h2 class="text-green-500 font-bold text-3xl mt-3 border-t-4 border-dotted">SUCCESS</h2>
+    <p class="py-4 font-bold text-xl w-1/2">Thank you for Booking Our Bus Seats. 
+      We are working hard to find the best service and deals for you. 
+      </p>
+    <p>Shortly you will find a confirmation in your email.</p> </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button, it will close the modal -->
+ <div>
+  <a href="#booking-seat"><button class="btn-accent btn">Continue</button></a>
+ </div>
+      </form>
+    </div>
+  </div>
+</dialog>
+      </div>
+     
+</section>
+</section>
+
+</section>
+
+
+</main>
+<footer class="p-10 bg-black text-neutral-content bg-titleColor">
+    <div class="footer-top flex justify-between">
+      <div class="left-side">
+        <h2 class="text-3xl font-bold">Muhib Paribahan</h2>
+        <p class="text-priColor" >P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+      </div>
+      <div class="right-side">
+        <h6 class="footer-title text-priColor">Download Our Lengur App</h6> 
+        <div class="grid grid-flow-col gap-4">
+          <div class="card card-side p-0 ">
+            <figure><img src="./images/playstore.png" alt="People"/></figure>
+            <div class="card-body">
+              <p class="text-priColor" >Get it on</p>
+              <h2 class="card-title font-bold text-xl">Google PlayStore</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="border-t-2 border-dashed border-sky-500 flex justify-between mt-10 py-5">
+      <div>
+        <p class="text-priColor" >Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </div>
+      <div class="">
+        <a class="mx-3 p-3" href="">Terms & Conditions</a>
+        <a class="mx-3 p-3" href="">Return & refund policy</a>
+        <a class="mx-3 p-3" href="">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+<script src="utility.js"></script>
+</body>
+</html>
